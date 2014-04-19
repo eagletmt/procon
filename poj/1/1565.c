@@ -1,0 +1,1 @@
+char*p,v[9];main(n){for(n=!gets(p=v);*p;n+=(*p-48)*((1<<strlen(v)+v-p++)-1));n?main(printf("%d\n",n)):0;}

@@ -1,0 +1,1 @@
+long long N,c[4];T,i,x,y;main(t){for(scanf("%d",&T);t<=T;printf("Scenario #%d:\n%lld\n\n",t++,N*(N-1)*(N-2)/6-c[3]*c[2]*(c[1]+*c)-c[1]**c*(c[3]+c[2])))for(i=*c=c[1]=c[2]=c[3]=!scanf("%lld",&N);i++<N;++c[(x&1)*2|y&1])scanf("%d%d",&x,&y);}

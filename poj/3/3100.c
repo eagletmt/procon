@@ -1,0 +1,1 @@
+b;n;main(x){for(;scanf("%d%d",&b,&n),b+n;printf("%d\n",(b-pow(x=pow(b,1./n),n)>pow(x+1,n)-b)+x));}

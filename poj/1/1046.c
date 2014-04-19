@@ -1,0 +1,1 @@
+c[16][3];i;g,b;*p;*q;main(r){float m,d;for(p=c;i<16;i++,p+=3)scanf("%d%d%d",p,p+1,p+2);for(;scanf("%d%d%d",&r,&g,&b),~r;printf("(%d,%d,%d) maps to (%d,%d,%d)\n",r,g,b,*q,q[1],q[2]))for(i=0,m=999,p=q=*c;i<16;d<m?m=d,q=p:0,i++,p+=3)d=sqrt((r-*p)*(r-*p)+(g-p[1])*(g-p[1])+(b-p[2])*(b-p[2]));}

@@ -1,0 +1,1 @@
+s['   '];i;main(n){for(scanf("%d",&n);!s[n];)s[n]=++i,n=n/10%10000,n=n*n%1000000;printf("%d %d %d\n",n,i-s[n]+1,i);}

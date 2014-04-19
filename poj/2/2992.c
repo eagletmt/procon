@@ -1,0 +1,1 @@
+p[431],s[999],t[432][432],*q=p,j,N,K;long long a;main(i){for(i=2;i<432;i++)if(!s[i])for(*q++=j=i;j<432;s[j+=i]=1);for(i=0;i<432;i++)for(q=p;*q;q++)for(j=*q;j<=i;j*=*q)t[i][*q]+=i/j;for(;~scanf("%d%d",&N,&K);printf("%lld\n",a))for(a=1,q=p;i=*q;q++)a*=1+t[N][i]-t[K][i]-t[N-K][i];}

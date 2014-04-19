@@ -1,0 +1,1 @@
+r;e;c;main(n){for(scanf("%d",&n);n--;puts(r<e-c?"advertise":r>e-c?"do not advertise":"does not matter"))scanf("%d%d%d",&r,&e,&c);}

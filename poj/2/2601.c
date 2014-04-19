@@ -1,0 +1,1 @@
+i;float a,b,c,s;main(n){for(scanf("%d%f%f",&n,&a,&b);i<n;s+=(n-i++)*c)scanf("%f",&c);printf("%.2f\n",(b+n*a-2*s)/(n+1));}

@@ -1,0 +1,1 @@
+d(x){return x<0?0:x>20?20:x;}a;b;c;w[21][21][21];main(){for(;a<=20;a++)for(b=0;b<=20;b++)for(c=0;c<=20;c++)w[a][b][c]=a*b*c?a<b&&b<c?w[a][b][c-1]+w[a][b-1][c-1]-w[a][b-1][c]:w[a-1][b][c]+w[a-1][b-1][c]+w[a-1][b][c-1]-w[a-1][b-1][c-1]:1;for(;scanf("%d%d%d",&a,&b,&c),~a+~b+~c;printf("w(%d, %d, %d) = %d\n",a,b,c,w[d(a)][d(b)][d(c)]));}

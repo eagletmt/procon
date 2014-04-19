@@ -1,0 +1,1 @@
+double a=1;i;main(f){for(puts("n e\n- -----------");printf("%d %.10g\n",i,a),i<9;a+=1.0/(f*=++i));}

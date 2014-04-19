@@ -1,0 +1,1 @@
+long long a,b='~~',p;S,c;main(y){p=b;for(scanf("%*d%d",&S);~scanf("%d%d",&c,&y);p=c,b=(b<p?b:p)+S)a+=(c<b?c:b)*y;printf("%lld\n",a);}

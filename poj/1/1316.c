@@ -1,0 +1,1 @@
+x;y;a['~~'];main(i){for(;i<9999;a[y+=2]=i++)for(x=i;x%10==0;x/=10)y-=9;for(i=0;i<9999;a[++i]||printf("%d\n",i));}

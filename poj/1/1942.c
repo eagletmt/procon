@@ -1,0 +1,1 @@
+main(){double a,b,c;for(;scanf("%lf%lf",&a,&b),a+=b;printf("%.0f\n",c))for(c=1,b=a-b>b?b:a-b;b;c*=a--/b--);}

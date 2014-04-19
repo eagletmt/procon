@@ -1,0 +1,1 @@
+main(n){char*p,s[1001];for(gets(s);p=gets(s);puts(""))for(;*p;p++)*p-p[1]?printf("%d%c",n,*p),n=1:n++;}

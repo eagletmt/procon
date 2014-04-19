@@ -1,0 +1,1 @@
+main(p,n,m){for(;scanf("%d%d%d%*d",&n,&m,&p),n;printf("%d\n",n-m+p));}

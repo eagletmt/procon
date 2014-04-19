@@ -1,0 +1,1 @@
+unsigned l=-1,h,a,b,c,d,z=255;main(){for(scanf("%*d");~scanf("%d.%d.%d.%d",&a,&b,&c,&d);h=a>h?a:h)l=(a=a<<24|b<<16|c<<8|d)<l?a:l;for(b=0;(l&(a=~((1LL<<b)-1)))!=(h&a);b++);l&=a;printf("%d.%d.%d.%d\n",l>>24&z,l>>16&z,l>>8&z,l&z);printf("%d.%d.%d.%d\n",a>>24&z,a>>16&z,a>>8&z,a&z);}

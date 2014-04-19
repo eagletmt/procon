@@ -1,0 +1,1 @@
+r;gcd(x,y){for(;r=y%x;x=r)y=x;return x;}a[99];i;j;c;main(N){for(;scanf("%d",&N),N;c=0){for(i=0;i<N;i++){scanf("%d",a+i);for(j=0;j<i;c+=gcd(a[i],a[j++])==1);}c?printf("%.6f\n",sqrt(6.*N*(N-1)/2/c)):puts("No estimate for this data set.");}}

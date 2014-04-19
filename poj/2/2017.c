@@ -1,0 +1,1 @@
+p;r;s;t;main(n){for(;scanf("%d",&n),~n;r=p=!printf("%d miles\n",r))for(;n--&&scanf("%d%d",&s,&t);r+=s*(t-p),p=t);}

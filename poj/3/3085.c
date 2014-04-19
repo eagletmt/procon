@@ -1,0 +1,1 @@
+i;main(c){for(gets(&c);~scanf("%d",&c);printf("%d %d QUARTER(S), %d DIME(S), %d NICKEL(S), %d PENNY(S)\n",++i,c/25,c%25/10,c%25%10/5,c%5));}

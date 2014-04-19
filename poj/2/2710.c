@@ -1,0 +1,1 @@
+d,b,e,i,j;main(n){for(gets(&n);~scanf("%d%d%d%d",&n,&d,&b,&e);puts(""))for(j=!printf("Problem set %d: %d / %d, base 7 digits %d through %d: ",++i,n,d,b,e);j<=e;++j>b&&printf("%d",n/d))n=(n%d)*7;}

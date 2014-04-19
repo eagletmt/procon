@@ -1,0 +1,1 @@
+a[99];i;s;c;n;main(j){for(;scanf("%d",&n),n;printf("Set #%d\nThe minimum number of moves is %d.\n\n",j++,c)){for(s=i=0;i<n;s+=a[i++])scanf("%d",a+i);for(c=i=0;i<n;i++){a[i]<s/n?c+=s/n-a[i]:0;}}}
