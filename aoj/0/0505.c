@@ -1,0 +1,1 @@
+n;m;a[100];b[100];i;c(int*x,int*y){return a[*y]-a[*x]?:*x-*y;}main(x){for(;~scanf("%d%d",&n,&m)&&n;puts("")){bzero(a,4*m);for(i=0;i<n*m;a[i++%m]+=x,b[i%m]=i%m)scanf("%d",&x);qsort(b,m,4,c);for(i=0;i<m;i++)printf("%s%d",i?" ":"",b[i]+1);}}

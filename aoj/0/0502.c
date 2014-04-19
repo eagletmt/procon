@@ -1,0 +1,1 @@
+N;b;c;z;char s;x;y;main(a){for(;scanf("%d",&N),N;printf("%d\n",z))for(a=z=1,b=2,c=3;N--;z+=a){scanf("%s",&s);x=a;y=b;s==78?a=b,b=7-x:s==69?a=7-c,c=x:s==87?a=c,c=7-x:s==83?a=7-b,b=x:s==82?b=c,c=7-y:s==76?b=7-c,c=y:0;}}
